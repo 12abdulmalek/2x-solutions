@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: #151719;
+   background: #151719;
   overflow-x: hidden;
 }
 .days{
@@ -46,3 +46,5 @@ body{
     transform: rotate(360deg);
   }
 }
+
+

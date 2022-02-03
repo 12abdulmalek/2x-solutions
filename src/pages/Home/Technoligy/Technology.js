@@ -1,17 +1,17 @@
 import React from 'react';
-import './Aproach.css'
-const Aproach = () => {
+import './Technology.css'
+const Technology = () => {
     return (
-       <div className='aproach'>
+        <div className='aproach'>
             <div className='container'>
-                <h1 className='aproach-header text-light' style={{fontSize:"40px",fontWeight:"bold"}}>Our approach</h1>
+                <h1 className='aproach-header text-light' style={{fontSize:"40px",fontWeight:"bold"}}>Our Technologies</h1>
             <div className='d-flex justify-content-center'>
             
                 <div className='aproach-item my-2'>
                     <div className='aproach-list'> <h1>01</h1></div>
                     <div className=' aproach-text'>
                     <div className='requirment'>
-                        <h4>Requirements</h4>
+                        <h4>Idea</h4>
                         <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox</p>
                     </div>
                     <div>
@@ -26,11 +26,11 @@ const Aproach = () => {
                     <div className='aproach-list'> <h1>02</h1></div>
                     <div className=' aproach-text'>
                     <div className='requirment'>
-                        <h4>Flow chart</h4>
+                        <h4>Sketch</h4>
                         <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox</p>
                     </div>
                     <div>
-                    <i className="fas fa-cogs fa-3x fa-2x"></i>
+                    <i className="fas fa-cogs fa-3x"></i>
                     </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Aproach = () => {
                     <div className='aproach-list'> <h1>04</h1></div>
                     <div className=' aproach-text'>
                     <div className='requirment'>
-                        <h4>Develop</h4>
+                        <h4>Devlop</h4>
                         <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox</p>
                     </div>
                     <div>
@@ -86,7 +86,7 @@ const Aproach = () => {
                     <div className='aproach-list'> <h1>06</h1></div>
                     <div className=' aproach-text'>
                     <div className='requirment'>
-                        <h4>Delivery</h4>
+                        <h4>Celeberete</h4>
                         <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox</p>
                     </div>
                     <div>
@@ -95,10 +95,10 @@ const Aproach = () => {
                     </div>
                 </div>
             </div>
-      
+           
         </div>
        </div>
     );
 };
 
-export default Aproach;
+export default Technology;

@@ -54,13 +54,30 @@
     border: none;
     outline: 0ch;
 }
-.rocket img{
 
+
+
+.checked-work{
+    position: relative;
+    width: 75%;
+    background-color: rgba(207, 196, 196, 0.808);
+    border-radius: 15px;
+}
+.rocket {
+    position: absolute;
+    left: -7%;
+    top: 90%;
+}
+.rocket img{
+    border-radius: 45%;
     width: 70px;
     height: 70px;
     transform: rotate(-90deg);
 }
-.rocket {
-    margin-left: -100%;
-    margin-top: -12px;
+
+@media (max-width:1199px) {
+    .checked-work{
+        width: 85%;
+    }
 }
+

@@ -21,7 +21,7 @@ const Menubar = ({dark,setDark}) => {
        <nav className="mx-auto d-flex flex-md-row flex-sm-column flex-column">
       <Link to="home" className={dark?'text-light p-2 text-decoration-none nav-item':'menu-item nav-item p-2'}>Home</Link>
       <Link to="service" className={dark?'text-light p-2 text-decoration-none nav-item':'menu-item nav-item p-2'}>Services</Link>
-      <Link to="" className={dark?'text-light p-2 text-decoration-none nav-item':'menu-item nav-item p-2'}>Technologies</Link>
+      <Link to="technology" className={dark?'text-light p-2 text-decoration-none nav-item':'menu-item nav-item p-2'}>Technologies</Link>
       <Link to="projects" className={dark?'text-light p-2 text-decoration-none nav-item':'menu-item nav-item p-2'}>Projects</Link>
       <Link to="contact" className={dark?'text-light p-2 text-decoration-none nav-item':'menu-item nav-item p-2'}>Reviews</Link>    
     </nav>

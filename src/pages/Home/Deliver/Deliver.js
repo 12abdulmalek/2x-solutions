@@ -32,9 +32,11 @@ const Deliver = ({dark,setDark}) => {
         </div>
         </div>
 
-        {/* checkout our  code here  */}
+        {/* checkout our work code here  */}
            <div className=' p-2  container  mt-5' >
-              <div className='bg-light p-3'>
+              <div className='d-flex justify-content-center'>
+                  <div className='checked-work'>
+                  <div className='p-3'>
               <div className='d-flex justify-content-around flex-md-row flex-sm-column flex-column'>
               <div>
                   <h2>7+</h2>
@@ -56,9 +58,13 @@ const Deliver = ({dark,setDark}) => {
            </div>
               </div>
            <div className='rocket'> <img src={rocket} /> </div>
-           <button className='faster-button'> Check our work</button>
+          
            </div>
+           
         </div>
+        <button className='faster-button mt-3'> Check our work</button>
+                  </div>
+              </div>
         </div>
     );
 };
