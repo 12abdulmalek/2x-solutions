@@ -13,7 +13,7 @@ const Menubar = ({dark,setDark}) => {
           {/* menu item logo  */}
             <div className='d-flex justify-content-center align-items-center'>
                 <img width="72px" height="64px" src={solutions}/>
-                <span className={dark?'text-light solution ':'solution p-2'}>SOLUTIONS</span>
+                <span className={dark?'text-light solution ':'solution p-2'}>2X SOLUTIONS</span>
             </div>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" className='bg-primary'   />
        <Navbar.Collapse id="responsive-navbar-nav">
@@ -26,7 +26,7 @@ const Menubar = ({dark,setDark}) => {
       <Link to="contact" className={dark?'text-light p-2 text-decoration-none nav-item':'menu-item nav-item p-2'}>Reviews</Link>    
     </nav>
     <Nav className='dark-icon p-1 '>
-        <button className={dark?'far fa-sun sun mb-1 mx-3':'fas fa-moon  moon mx-3 mb-1'} onClick={()=>setDark(!dark)} >     
+        <button className={dark?'far fa-moon sun mb-1 mx-3':'fas fa-moon  moon mx-3 mb-1'} onClick={()=>setDark(!dark)} >     
         </button>
         {/* active contact button  */}
       <a  className='item' href="#memes">

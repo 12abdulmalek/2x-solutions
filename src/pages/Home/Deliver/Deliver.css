@@ -1,11 +1,21 @@
 .deliver-section{
-    background-color:  #b5f1e471;
+    background-color:  #151719
+    ;
 }
 .faster{
     color: white;
+
+}
+.faster-deliver{
+    font-weight: 600;
+    line-height: 0px;
+    font-size: 50px;
 }
 
 .faster-color{
+    font-size: 58px;
+    letter-spacing: 0.01em;
+    font-weight: 800;
     background: -webkit-linear-gradient(left, orange , yellow);
     background: -o-linear-gradient(right, orange, yellow);
     background: -moz-linear-gradient(right, orange, yellow);
@@ -13,17 +23,34 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+
+.solution-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    
+}
+
+
 .faster-button{
     background: linear-gradient(98.87deg, #068AC1 16.95%, #7DF9C2 157.07%);
     border: none;
-    padding: 6px;
+    padding: 12px 24px;
     border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
 }
 .faster-inp{
+    background: #FFFFFF;
+    box-shadow: 4px 25px 50px rgba(109, 141, 173, 0.25);
+    border-radius: 5px;
     width: 60%;
-    background: rgba(0, 0, 0, 0.1);
-    padding: 7px;
-    border-radius: 10px;
+    padding: 12px 24px;
     border: none;
     outline: 0ch;
 }

@@ -11,7 +11,7 @@ const Work = () => {
     return (
         <div>
             <div className='container pt-5'>
-                <div className='row'>
+                <div className='row text-light'>
                     <div className='col-md-6 col-sm-12'>
                        <div className='service-pic'>
                        <img className='img-fluid' src={pic}/>
@@ -19,8 +19,8 @@ const Work = () => {
                     </div>
                     <div className='col-md-6 col-sm-12'>
                     
-                      <div>
-                            <h1>What we do</h1>
+                      <div className='text-start'>
+                            <h1 style={{fontSize:"40px",fontWeight:"bold"}}>What we do</h1>
                             <p>It should represent more in pictures and icons and less in words.</p>
                         </div>
                         <div className='work-service'>

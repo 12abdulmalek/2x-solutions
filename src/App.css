@@ -1,11 +1,10 @@
 .App {
   text-align: center;
-  background-color: black;
+  background: #151719;
   overflow-x: hidden;
 }
 .days{
   text-align: center;
-  background: #E6F4F1;
   overflow-x: hidden;
 }
 .App-logo {
@@ -13,6 +12,7 @@
   pointer-events: none;
 }
 body{
+ 
   font-family: 'Manrope', sans-serif;
   overflow-x: hidden;
 }

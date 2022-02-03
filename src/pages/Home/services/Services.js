@@ -8,7 +8,7 @@ const Services = () => {
         <div className='mt-5 mb-5'>
            <div className='container'>
                <div className='service-offer'>
-                   <h1>WHAT WE OFFER</h1>
+                   <h1 className='text-light' style={{fontSize:"40px",fontWeight:"700"}}>WHAT WE OFFER</h1>
                    <div className='d-flex justify-content-around service-btn'>            
                            <a>Services</a>
                            <a>Technologies</a>
@@ -23,7 +23,7 @@ const Services = () => {
                      <Card.Body>
                             <Card.Title>Enterprize Software development </Card.Title>
                         <Card.Text>
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself </p>
+                                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself 
                         </Card.Text>
                        </Card.Body>
                       </Card>
@@ -36,7 +36,7 @@ const Services = () => {
                      <Card.Body>
                             <Card.Title>Enterprize Software development </Card.Title>
                         <Card.Text>
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself </p>
+                                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself 
                         </Card.Text>
                        </Card.Body>
                       </Card>
@@ -49,7 +49,7 @@ const Services = () => {
                      <Card.Body>
                             <Card.Title>Enterprize Software development </Card.Title>
                         <Card.Text>
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself </p>
+                                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself 
                         </Card.Text>
                        </Card.Body>
                       </Card>
@@ -62,13 +62,13 @@ const Services = () => {
                      <Card.Body>
                             <Card.Title>Enterprize Software development </Card.Title>
                         <Card.Text>
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself </p>
+                                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself 
                         </Card.Text>
                        </Card.Body>
                       </Card>
                   </Col>
                 </Row>
-                <button className='mt-4 px-3 py-2 faster-button'> Tell us about your project</button>
+                <button className='faster-button mt-5'> Tell us about your project</button>
            </div>
         </div>
     );

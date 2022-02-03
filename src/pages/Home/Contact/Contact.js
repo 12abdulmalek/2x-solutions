@@ -1,20 +1,12 @@
 import React, { useEffect } from 'react';
 import './Contact.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 const Contact = () => {
-    useEffect(()=>{
-        AOS.init({duration:2000});
-    },[])
+  
     return (
         <div className='d-flex justify-content-center mt-5 contact-part py-5'>
           <div className='d-flex flex-lg-row flex-md-column   flex-sm-column flex-column'>
             <div>
-             <div className='contact-form'
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-            >
+             <div className='contact-form'>
               <div className='contact-text'>
                 <h1>Ready to be in the ultimate software solutions?</h1>
                 <h1>Contact Us Today! </h1>
@@ -23,7 +15,7 @@ const Contact = () => {
                       <input className='contact' type="text" placeholder='Full Name*'/> <br/>
                       <input className='contact'  type="email" placeholder='G-mail*'/> <br/>
                       <input className='contact'  type="text" placeholder='Contact'/> <br/>
-                      <textArea className='contact' style={{ height: "200px"}}  placeholder='Tell us, How can we help you?'></textArea> <br/>
+                      <textarea className='contact' style={{ height: "150px"}}  placeholder='Tell us, How can we help you?'></textarea> <br/>
                       <button className='contact-btn'>submit</button>               
                </div>
              </div>
@@ -31,11 +23,7 @@ const Contact = () => {
          <div>
          {/* next card start here  */}
 
-           <div className='next-form' 
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
-               >
+           <div className='next-form'>
               <div>
                  <h1 className='my-5'>What next?</h1>
              

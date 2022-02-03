@@ -6,25 +6,27 @@ const Deliver = ({dark,setDark}) => {
 
     return (
         // 2x faster deliver section 
-        <div className='deliver-section py-5'>
+        <div className='deliver-section py-2'>
             <div className='container'>
-            <div className='mt-5'>
+            <div className='mt-'>
             <div className='row g-2 '>
-            <div className='col-lg-6 col-md-6 col-sm-12 text-start mt-5'>
+            <div className='col-lg-6 col-md-6 col-sm-12 text-start mt-2'>
 
                <div className={dark?'faster mt-4' : 'mt-4'}>
-               <h1>
+              <div className='faster-deliver'>
+              <h1>
                 We deliver your work </h1> <br/><h1> <span className='faster-color'>2X FASTER</span> then others
                 </h1>
-                <p className='mt-5'>2x solutions is a company who provides services in 2x faster manner and we never compromise in security and quality of our products.</p>
-                <input className='faster-inp'/>
+              </div>
+                <p className='solution-text mb-5'>2x solutions is a company who provides services in 2x faster manner and we never compromise in security and quality of our products.</p>
+                <input className='faster-inp mt-2'/>
                 <button className='mx-2 faster-button'> Send query</button>
                </div>
             </div>
             {/* faster coding picture here */}
             <div className='col-lg-6 col-md-6 col-sm-12'> 
               <div className='pt-5'>
-              <img className='img-fluid'  src={web}/>
+              <img width="479px" height="476px"  src={web}/>
               </div>
             </div>
         </div>
@@ -54,7 +56,7 @@ const Deliver = ({dark,setDark}) => {
            </div>
               </div>
            <div className='rocket'> <img src={rocket} /> </div>
-           <button className='faster-button p-2'> Check our work</button>
+           <button className='faster-button'> Check our work</button>
            </div>
         </div>
         </div>

@@ -8,9 +8,15 @@
     color: #FFFFFF;
     text-align: left;
 }
+.footer-area h3{
+    font-size: 18px;
+}
 .contact-area p{
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+    letter-spacing: 0.5px;
+
+color: rgba(255, 255, 255, 0.5);
 }
 .contact-area span{
     font-size: 16px;
@@ -40,9 +46,16 @@
     font-size: 23px;
   
 }
+.footer-services h2{
+    font-size: 23px;
+}
 .footer-services li{
     font-weight: 500;
     font-size: 20px;
-line-height: 31px;
-opacity: .5;
+   line-height: 31px;
+    opacity: .5;    
 }
+
+/* position: absolute;
+width: 78.14px;
+height: 60.44px; */

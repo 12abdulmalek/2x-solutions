@@ -10,13 +10,13 @@ const Footer = () => {
          <div className='container pt-3'>
           <div className='row g-3'>
             <div className='col-lg-5 col-md-4 col-sm-12 contact-area'>
-              <div data-aos="fade-up">
+              <div>
                  <div className='d-flex align-items-center'>
                      <img width="50" src={solutions}/>
-                     <h3 >Solution</h3>
+                     <h2 className='ms-2' style={{fontSize:"20px"}}>Solution</h2>
                  </div>
                    <p>
-                   Zibtek is a custom software development company that provides IT staff augmentation services including, design, project management, web and mobile development, QA automation, dev ops, and support services.  
+                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis pajusto,Lorem ipsum dolor sit amet, consectetuer adipiscinde justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
                    </p>   
                   <h3>Telephone:      <span className='px-2'>+02254867867 </span></h3>
                    <h3>E-mail:      <span className='px-5'>abcd@gmail.com </span></h3> 
@@ -24,15 +24,15 @@ const Footer = () => {
                       <img width="90%" height="220" src={map}/>
                       <h2>STAY CONNECTED</h2>
                       <div className='social-link'>
-                      <i class="fab fa-youtube-square"></i>
-                      <i class="fab fa-twitter"></i>
-                      <i class="fab fa-facebook-f"></i>
-                      <i class="fab fa-instagram"></i>
+                      <i className="fab fa-youtube-square"></i>
+                      <i className="fab fa-twitter"></i>
+                      <i className="fab fa-facebook-f"></i>
+                      <i className="fab fa-instagram"></i>
                       </div>
               </div>
             </div>
                 <div className='col-lg-4 col-md-4 col-sm-12'>
-                   <div className='footer-services' data-aos="fade-up">
+                   <div className='footer-services' >
                        <h2>Services</h2>
                        <ul>
                            <li>Case Study.</li>
@@ -43,7 +43,7 @@ const Footer = () => {
                            <li>Blockchain development.</li>                    
                        </ul>
                    </div>
-                   <div className='footer-services' data-aos="fade-up">
+                   <div className='footer-services' >
                        <h2>Blockchain</h2>
                        <ul>
                            <li>Blockchain integretion..</li>
@@ -53,7 +53,7 @@ const Footer = () => {
                            <li>Mobile app development.</li>  
                        </ul>
                    </div>
-                   <div className='footer-services' data-aos="fade-up">
+                   <div className='footer-services' >
                        <h2>Mobile</h2>
                        <ul>
                            <li>Flutter</li>
@@ -63,7 +63,7 @@ const Footer = () => {
                    </div>
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-12'>
-                <div className='footer-services' data-aos="fade-up">
+                <div className='footer-services' >
                        <h2>Frontend</h2>
                        <ul>
                            <li>React JS.</li>
@@ -71,7 +71,7 @@ const Footer = () => {
                            <li>Tailwind CSS.</li>                                           
                        </ul>
                    </div>
-                <div className='footer-services' data-aos="fade-up">
+                <div className='footer-services' >
                        <h2>Backend</h2>
                        <ul>
                            <li>Node JS.</li>
@@ -81,7 +81,7 @@ const Footer = () => {
                            <li>M.E.R.N</li>                                            
                        </ul>
                    </div>
-                <div className='footer-services' data-aos="fade-up">
+                <div className='footer-services' >
                        <h2>Web</h2>
                        <ul>
                            <li>HTML.</li>
