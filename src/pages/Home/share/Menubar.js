@@ -7,9 +7,9 @@ const Menubar = ({dark,setDark}) => {
   
     return (
       // navigation code here 
-       <div className='menubar'>
-            <div className='container'>
-        <Navbar collapseOnSelect expand="md" variant="dark">
+       <div className='menubar '>
+            <div className='container '>
+        <Navbar collapseOnSelect  expand="md" variant="dark">
           {/* menu item logo  */}
             <div className='d-flex justify-content-center align-items-center'>
                 <img width="72px" height="64px" src={solutions}/>
