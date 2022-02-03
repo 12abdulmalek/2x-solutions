@@ -1,0 +1,23 @@
+.service-card{
+    background: #FFFFFF;
+    box-shadow: 4px 24px 55px rgba(109, 141, 173, 0.2);
+    border-radius: 10px 10px 10px 60px;
+    border: none;
+}
+.service-img{
+    width: 80px;
+    height: 80px;
+    margin-top: 36px;
+    margin-bottom: 26px;
+    border-radius: 50%;
+}
+
+.service-offer{
+    color: #E89B26;
+}
+
+.service-offer a{
+    text-decoration: none;
+    font-size: 28px;
+    margin-top: 33px;
+}

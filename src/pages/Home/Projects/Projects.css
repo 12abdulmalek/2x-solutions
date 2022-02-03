@@ -1,0 +1,92 @@
+.last-project{
+    color: #746c6c;
+    margin-bottom: 55px;
+}
+.last-project h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.25px;
+}
+.last-project{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+}
+.projects{
+        background: linear-gradient(103.49deg, rgba(15, 68, 99, 0.1) 4.97%, rgba(0, 214, 214, 0.042) 104.68%);
+    box-shadow: inset 61.6667px -61.6667px 61.6667px rgba(175, 185, 183, 0.1), inset -61.6667px 61.6667px 61.6667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(123.333px);
+    border-radius: 50px;
+    padding: 20px;
+}
+.projects-text{
+ text-align: left;
+ margin-right: 30px;
+}
+.projects-text h1{
+    color: #746c6c;
+    margin: 50px 0px;
+    font-size: 40px;
+    line-height: 55px;
+}
+.projects-text p{
+    color: #746c6c;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+
+.ractangle-design{
+    position: relative;
+}
+.ractangle-ractangle-one{
+    width: 350px;
+    height: 510px;
+    margin-left: 100px;
+    background: #E89B26;
+}
+ 
+
+.ractangle-ractangle-two{
+    position: absolute;
+    width: 355px;
+    height: 379px;
+    top: 100px;
+    left: -20px;
+    background: #00B2D3;
+    border-radius: 15px;
+}
+.ractangle-ractangle-two span{
+    position: absolute;
+    width: 41.57px;
+    height: 36px;
+    top: 50%;
+    left: 50%;
+    background-image:
+      linear-gradient(to bottom right, transparent 50%, #E9E1E1 0),
+      linear-gradient(to top right, #E9E1E1 50%, transparent 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    transform: rotate(90.29deg);
+}
+
+@media (max-width:481px) {
+    .ractangle-ractangle-one{
+        width:75%;
+    }
+    .ractangle-ractangle-two{
+        width: 75%;
+    }
+}
+@media (max-width:326px) {
+    .ractangle-ractangle-one{
+        width:65%;
+    }
+    .ractangle-ractangle-two{
+        width: 65%;
+    }
+}

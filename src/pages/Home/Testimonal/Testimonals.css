@@ -1,0 +1,64 @@
+.testimonials{
+    background: rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(21.0773px);
+    border-radius: 20px;
+}
+.test-strick{
+    width: 85px;
+    height: 4px;
+    background-color:  #E89B26;
+    border: 2px solid #E89B26;
+}
+.testi-cont h1{
+ color: #00B2D3;
+ font-size: 40px;
+}
+
+.client-cont {
+    color:  #FFFFFF;
+}
+.client-cont>h1{
+    color: #7DF9C2;
+    margin-bottom: -6px;
+}
+.client-cont p{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.round{
+    margin-left:-44px;
+    margin-top: -90px;
+    width: 200px;
+   height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(95.12% 95.12% at 100% 68.54%, #002A57 0%, #068AC1 36.48%, #00B2D3 75.31%);  
+}
+
+
+.light-quote{
+    margin-left: -18px;
+    color:#E89B26;
+}
+.testimonal-img{
+    position: relative;
+}
+.testi-icon{
+    width: 74px;
+    height: 27px;
+    position: absolute;
+    background: linear-gradient(89.45deg, #FF8C00 -7.46%, #FFDC12 53.46%, #FF8C00 92.07%);
+    box-shadow: 2px 24px 50px rgba(109, 141, 173, 0.25);
+    border-radius: 15px;
+    left: -36px;
+}
+.minus{
+    transform: rotate(-90deg);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.testi-img{
+    border-radius: 25px;
+    width: 100%;
+}

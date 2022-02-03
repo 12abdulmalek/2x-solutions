@@ -1,0 +1,37 @@
+.team{
+    background-color: rgba(119, 128, 128, 0.555);
+}
+.team-text{
+    color: rgba(51, 48, 48, 0.397);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.team-card{
+    background: #002A57;
+    border-radius: 20px;
+    width: 40%;
+}
+.team-card h6,button{
+    color: #EDFBFF;
+}
+
+.team-star i{
+  color: tomato;
+  margin: 1px;
+}
+.team-social{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+.team-social i{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%; 
+    background-color: #ffffff;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

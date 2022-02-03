@@ -1,0 +1,48 @@
+/* footer area design code  */
+.footer-area{
+    background: linear-gradient(99.31deg, #1C2024 -17.65%, rgba(0, 42, 87, 0.79) 43.38%, #1C2024 101.26%);
+    overflow-x: hidden;
+    margin-top: 190px;
+}
+.contact-area{
+    color: #FFFFFF;
+    text-align: left;
+}
+.contact-area p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.contact-area span{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-link{
+    display: flex;
+}
+.social-link i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+   width: 40px;
+   height:40px;
+   background: #FFFFFF;
+     border-radius: 5px;
+     border: 2px solid #3276ED;
+     color: #3276ED;
+}
+
+
+.footer-services{
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 23px;
+  
+}
+.footer-services li{
+    font-weight: 500;
+    font-size: 20px;
+line-height: 31px;
+opacity: .5;
+}

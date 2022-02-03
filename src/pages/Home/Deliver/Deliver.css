@@ -1,0 +1,39 @@
+.deliver-section{
+    background-color:  #b5f1e471;
+}
+.faster{
+    color: white;
+}
+
+.faster-color{
+    background: -webkit-linear-gradient(left, orange , yellow);
+    background: -o-linear-gradient(right, orange, yellow);
+    background: -moz-linear-gradient(right, orange, yellow);
+    background: linear-gradient(to right, orange , yellow); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.faster-button{
+    background: linear-gradient(98.87deg, #068AC1 16.95%, #7DF9C2 157.07%);
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+.faster-inp{
+    width: 60%;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    outline: 0ch;
+}
+.rocket img{
+
+    width: 70px;
+    height: 70px;
+    transform: rotate(-90deg);
+}
+.rocket {
+    margin-left: -100%;
+    margin-top: -12px;
+}
