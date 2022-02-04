@@ -1,10 +1,20 @@
  /* aproach section code is here  */
 .aproach{
-    padding-top: 55px;
+    padding-top: 100px;
     padding-bottom: 55px;
 }
+
   /* aproach header code here  */
-.aproach-header{
+.dark-aproach-header{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E6F4F1;
+}
+.light-aproach-header{
     margin-bottom: 50px;
     font-weight: bold;
     font-size: 40px;
@@ -15,15 +25,12 @@
 }
     /* aproach all design code here  */
 .aproach-item{
-    position: relative;
-    
+      position: relative;
       width: 70%;
      display: flex;
      align-items: center;
      justify-content: center;
 }
-
-
 
 .aproach-list{
     position:absolute;
@@ -35,15 +42,13 @@
     border-radius: 50%;
     left: -20px;
     top: 33%;
-    background: linear-gradient(180deg, #002A57 0%, #087AB9 100%);
-    color: #ffffff;
+    background: linear-gradient(180deg, #002A57 0%, #087AB9 100%); 
+    color:#c0b23f;
     border: 6px solid #FFFFFF;
     box-sizing: border-box;
     box-shadow: 0px 4px 50px 1px rgba(19, 0, 124, 0.18);
-    
    }
 .aproach-text{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,6 +60,47 @@
     box-shadow: 2px 5px 10px rgba(17, 15, 15, 0.2);
     border-radius: 0px 20px 20px 0px;
 }
+
+
+.aproach-list1{
+    background-color: #c0b23f;
+    color: #fcfcc4;
+}
+.aproach-text1{
+    background-color: #fbeb5f;
+}
+.aproach-text1 h4{
+    color: #575d23 ;
+}
+.proach-text1 p{
+    color: #5f5b2c ;
+}
+.aproach-icon1{
+    color: #574d15;
+}
+
+.aproach-list2{
+    background-color: #dd87c7;
+    color: #fbc8ef;
+}
+.aproach-text2{
+    background-color: #ea5d8d;
+}
+#aproach-text2 h4{
+    color: #4d1d54;
+}
+#aproach-text2 p{
+    color: #4d1d54;
+}
+.aproach-icon2{
+    color: #4c1d3c;
+}
+
+
+
+
+
+
 .aproach-text .requirment{
     width: 80%;
 font-size: 15px;
@@ -69,7 +115,9 @@ color: rgba(237, 251, 255, 0.6);
     color: #E6F4F1;
     margin-bottom: 8px;
 }
-
+.aproach-icon{
+    color: #c0b23f;;
+}
 @media (max-width:500px) {
     .aproach-item{
         width: 100%;

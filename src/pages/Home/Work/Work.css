@@ -1,12 +1,56 @@
-.work-service{
-    text-align: left;
+/* what do we do section is here  */
+.dark-work-section{
+    padding-top: 80px;
+}
+.light-work-section{
+    padding-top: 80px;
+    background: #E6F4F1;
 }
 
-.work-service h1{
+ .work-text h1{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 61px;
+    text-transform: uppercase;
+ }
+ .work-text p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+ }
+.dark-work-text h1{
+    color: #FFFFFF;
+}
+.dark-work-text p{
+    color: rgba(237, 251, 255, 0.7);
+}
+.light-work-text h1{
+    color: #002A57;
+}
+.light-work-text p{
+    color: rgba(28, 32, 36, 0.6);
+}
+
+.dark-work-service{
+    text-align: left;
+}
+.light-work-service{
+    text-align: left;
+}
+   /* wwork service list  */
+   
+.dark-work-service h5{
     font-weight: 500;
     font-size: 23px;
     line-height: 31px;
-    
+    color: #FFFFFF;
+}
+.light-work-service h5{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 31px;
+    color: #1C2024;
 }
 .service-pic{
     margin-top: 100px;

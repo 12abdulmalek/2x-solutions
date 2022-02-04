@@ -15,8 +15,8 @@ const Home = ({dark,setDark}) => {
     return (
         <div>
             <Deliver dark={dark} setDark={setDark}></Deliver>
-            <Work></Work>
-            <Aproach></Aproach>     
+            <Work dark={dark}></Work>
+            <Aproach dark={dark}></Aproach>     
             <Services></Services>
             <Projects></Projects>
             <Testimonal></Testimonal>

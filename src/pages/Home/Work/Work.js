@@ -7,11 +7,12 @@ import pic4 from '../../images/code (1).png'
 import pic5 from '../../images/trust.png'
 import pic6 from '../../images/MOBILE.png'
 import './Work.css'
-const Work = () => {
+const Work = ({dark}) => {
     return (
-        <div>
+        // what we do service section code 
+        <div  className={dark?'dark-work-section':'light-work-section'}>
             <div className='container pt-5'>
-                <div className='row text-light'>
+                <div className='row'>
                     <div className='col-md-6 col-sm-12'>
                        <div className='service-pic'>
                        <img className='img-fluid' src={pic}/>
@@ -19,11 +20,11 @@ const Work = () => {
                     </div>
                     <div className='col-md-6 col-sm-12'>
                     
-                      <div className='text-start'>
-                            <h1 style={{fontSize:"40px",fontWeight:"bold"}}>What we do</h1>
+                      <div className={dark?'dark-work-text work-text':'light-work-text work-text'}>
+                            <h1>What we do</h1>
                             <p>It should represent more in pictures and icons and less in words.</p>
                         </div>
-                        <div className='work-service'>
+                        <div className={dark?'dark-work-service':'light-work-serivce'}>
                         <div className='d-flex align-items-center'> 
                             <img width="60px" height="60px" className='my-1' src={pic1}/>
                             <h5 className='mx-3'>High Quality code</h5>

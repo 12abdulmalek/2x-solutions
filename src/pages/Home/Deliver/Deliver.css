@@ -1,6 +1,11 @@
-.deliver-section{
+ /* 2x deliver section  */
+
+.dark-deliver-section{
     background-color:  #151719;
-    margin-top: 100px;
+    padding-top: 100px;
+}
+.light-deliver-section{
+    background: #E6F4F1;
 }
 .faster{
     color: white;
@@ -56,12 +61,26 @@
 }
 
 
-
+ /* checked work code is here  */
+ 
 .checked-work{
     position: relative;
     width: 75%;
-    background-color: rgba(207, 196, 196, 0.808);
+    background-color: rgba(233, 225, 225, 0.836);
     border-radius: 15px;
+}
+.checked-work h2{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 31px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.checked-work span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(28, 32, 36, 0.5);
 }
 .rocket {
     position: absolute;
@@ -74,10 +93,20 @@
     height: 70px;
     transform: rotate(-90deg);
 }
-
+ /* deliver section checked work responsive behavioue */
 @media (max-width:1199px) {
     .checked-work{
         width: 85%;
+    }
+}
+@media (max-width:767.5px) {
+    .checked-work{
+        width: 85%;
+    }
+    .checked-working-project{
+        margin-top: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 }
 

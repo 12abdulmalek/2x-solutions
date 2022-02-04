@@ -93,4 +93,18 @@
        justify-content: center;
        align-items: center;
     }
+    .service-card{
+        margin-left: 14px;
+        /* margin-bottom: 49px; */
+    }
+    .service-card-one{
+        margin-bottom: 15px;
+        background: linear-gradient(90deg, #43CEA2 0%, #185A9D 100%);
+      
+     }
+     .service-card-two{
+         /* margin-top: 15px; */
+         margin-bottom: 15px;
+       
+      }
 }
