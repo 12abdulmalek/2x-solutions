@@ -6,6 +6,7 @@
 }
 .light-deliver-section{
     background: #E6F4F1;
+    padding-top: 100px;
 }
 .faster{
     color: white;
@@ -37,7 +38,10 @@
     letter-spacing: 0.5px;
     
 }
-
+   .deliver-img{
+       width: 470px;
+       height: 470px;
+   }
 
 .faster-button{
     background: linear-gradient(98.87deg, #068AC1 16.95%, #7DF9C2 157.07%);
@@ -99,6 +103,12 @@
         width: 85%;
     }
 }
+@media (max-width:982px) {
+    .deliver-img{
+         width: 96%;
+    }
+    
+}
 @media (max-width:767.5px) {
     .checked-work{
         width: 85%;
@@ -108,5 +118,6 @@
         padding-top: 8px;
         padding-bottom: 8px;
     }
+    
 }
 

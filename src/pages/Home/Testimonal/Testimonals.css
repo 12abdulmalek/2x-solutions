@@ -5,6 +5,20 @@
    border-radius: 20px;
    border: .5px solid white;
 }
+.dark-testimonial-header{
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00B2D3;
+}
+.light-testimonial-header{
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #002A57;
+}
 .test-strick{
     width: 85px;
     height: 4px;

@@ -20,26 +20,25 @@ const Contact = () => {
                </div>
              </div>
             </div>
+               {/* next card start here  */}
          <div>
-         {/* next card start here  */}
-
            <div className='next-form'>
               <div>
-                 <h1 className='my-5'>What next?</h1>
+                 <h1 className='pb-4'>What next?</h1>
              
               </div>
               <div className='next-form-list'>
-                <div className='next-list mt-5'>
+                <div className='next-list mt-2'>
                     <h1>1</h1>
                     <p>Our manager will reach you within some days and gather requirements from you.</p>
                 </div>
                     
-                <div className='next-list mt-5'>
+                <div className='next-list mt-2'>
                     <h1>2</h1>
                     <p>Our manager will reach you within some days and gather requirements from you</p>
                 </div>
                     
-                <div className='next-list mt-5'>
+                <div className='next-list mt-2'>
                     <h1>3</h1>
                     <p>Our manager will reach you within some days and gather requirements from you</p>
                 </div>    

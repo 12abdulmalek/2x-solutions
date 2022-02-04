@@ -31,7 +31,7 @@ const Deliver = ({dark,setDark}) => {
 
             <div className='col-lg-6 col-md-6 col-sm-12'> 
               <div>
-              <img width="479px" height="476px"  src={web}/>
+              <img  className='deliver-img' width="479px" height="476px"  src={web}/>
               </div>
             </div>
         </div>

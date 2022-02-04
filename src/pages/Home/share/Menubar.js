@@ -10,7 +10,7 @@ const Menubar = ({ dark, setDark }) => {
 
     <div className={dark ? 'dark-menubar' : 'light-menubar'}>
       <div className='container ' >
-        <Navbar collapseOnSelect expand="md" fixed="top" variant="dark">
+        <Navbar collapseOnSelect expand="md"  variant="dark">
 
           {/* menu item logo  */}
 

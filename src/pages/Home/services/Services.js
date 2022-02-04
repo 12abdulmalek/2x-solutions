@@ -1,7 +1,10 @@
 import React from 'react';
 import { Button, Card, Col, Row } from 'react-bootstrap';
 import './service.css'
-import pic2 from '../../images/web.svg'
+import pic1 from '../../images/blockchain1.svg'
+import pic2 from '../../images/blockchain.svg'
+import pic3 from '../../images/blockchain2.svg'
+import pic4 from '../../images/blockchain3.png'
 const Services = () => {
     return (
         // service 
@@ -13,7 +16,7 @@ const Services = () => {
                        <div className='services-card'>
                             <div className='service-card service-card-one'>
                                 <div className='service-img'>
-                                    <img src={pic2}/>
+                                    <img src={pic3}/>
                                 </div>
                                 <div className='service-text'>
                                     <h2 id='service-text-one'>Blockchain Development</h2>
@@ -33,7 +36,7 @@ const Services = () => {
                        <div className='services-card'>
                             <div className='service-card service-card-two'>
                                 <div className='service-img'>
-                                    <img src={pic2}/>
+                                    <img src={pic1}/>
                                 </div>
                                 <div className='service-text'>
                                     <h2>Blockchain Development</h2>
@@ -42,7 +45,7 @@ const Services = () => {
                        <div className='service-card'>
                             <div>
                                 <div className='service-img'>
-                                    <img src={pic2}/>
+                                    <img src={pic4}/>
                                 </div>
                                 <div className='service-text'>
                                     <h2>Blockchain Development</h2>

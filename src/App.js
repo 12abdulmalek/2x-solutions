@@ -23,7 +23,7 @@ function App() {
           <Route path="/service" element={<Services></Services>} />
           <Route path="/technology" element={<Technology dark={dark}></Technology>} />
           <Route path="/contact" element={<Contact></Contact>} />
-          <Route path="/projects" element={<Projects></Projects>} />
+          <Route path="/projects" element={<Projects dark={dark}></Projects>} />
 
         </Routes>
       </BrowserRouter>

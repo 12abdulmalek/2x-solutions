@@ -7,7 +7,7 @@ const Testimonal = ({dark}) => {
             <div className=' container testimonials p-5'>
                 <div className='d-flex justify-content-center align-items-center testi-cont' >
                 <span className='test-strick mx-4'></span>
-                <h1>TESTIMONALS</h1>
+                <h1 className={dark?'dark-testimonial-header':'light-testimonial-header'}>TESTIMONALS</h1>
                 <span className='test-strick mx-4'></span>
                 </div>
                 <div className='row gx-5'>
