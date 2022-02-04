@@ -1,7 +1,7 @@
 import React from 'react';
 import './Testimonals.css'
 import pic from '../../images/testimonial.jpg'
-const Testimonal = () => {
+const Testimonal = ({dark}) => {
     return (
         <div className=''>
             <div className=' container testimonials p-5'>
@@ -12,7 +12,7 @@ const Testimonal = () => {
                 </div>
                 <div className='row gx-5'>
                     <div className='col-lg-6 col-md-6 col-sm-12 text-start client-cont mt-5'>
-                      <div className='ms-5 testimononial-body'>
+                      <div className={dark?'ms-5 dark-testimonial-body':'ms-5 light-testimonial-body'}>
                       <h1>What People say
                          </h1>
                          <i className="fas fa-quote-left light-quote"></i>

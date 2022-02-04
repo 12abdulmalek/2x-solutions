@@ -1,10 +1,10 @@
 import React from 'react';
 import './Technology.css'
-const Technology = () => {
+const Technology = ({dark}) => {
     return (
         <div className='aproach'>
             <div className='container'>
-                <h1 className='aproach-header text-light' style={{fontSize:"40px",fontWeight:"bold"}}>Our Technologies</h1>
+                <h1 className={dark?'dark-aproach-header':'light-aproach-header'} style style={{fontSize:"40px",fontWeight:"bold"}}>Our Technologies</h1>
             <div className='d-flex justify-content-center'>
             
                 <div className='aproach-item my-2'>

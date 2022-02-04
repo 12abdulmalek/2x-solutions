@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/" element={<Home dark={dark} setDark={setDark}></Home>} />
           <Route path="/home" element={<Home dark={dark} setDark={setDark}></Home>} />
           <Route path="/service" element={<Services></Services>} />
-          <Route path="/technology" element={<Technology></Technology>} />
+          <Route path="/technology" element={<Technology dark={dark}></Technology>} />
           <Route path="/contact" element={<Contact></Contact>} />
           <Route path="/projects" element={<Projects></Projects>} />
 

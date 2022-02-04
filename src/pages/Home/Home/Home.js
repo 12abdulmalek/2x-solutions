@@ -18,8 +18,8 @@ const Home = ({dark,setDark}) => {
             <Work dark={dark}></Work>
             <Aproach dark={dark}></Aproach>     
             <Services></Services>
-            <Projects></Projects>
-            <Testimonal></Testimonal>
+            <Projects dark={dark}></Projects>
+            <Testimonal dark={dark}></Testimonal>
             <Team></Team>
             <Contact></Contact>
             <Footer></Footer>

@@ -1,19 +1,47 @@
-.last-project{
-    color: #746c6c;
-    margin-bottom: 55px;
-}
-.last-project h1{
+ /* project section code design  */
+
+ .latest-project{
+     padding-top: 100px;
+ }
+.dark-latest-project h1{
     font-weight: 600;
     font-size: 36px;
     line-height: 49px;
     text-align: center;
     letter-spacing: 0.25px;
+    color: #E6F4F1;
 }
-.last-project{
+.dark-latest-project p{
     font-weight: 500;
     font-size: 28px;
     line-height: 38px;
+    color: #FFFFFF;
 }
+.light-latest-project h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.25px; 
+    color: #002A57;
+}
+.light-latest-project p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #1C2024;
+}
+
+
+
+
+
+
+
+
+
+
 .projects{
         background: linear-gradient(103.49deg, rgba(15, 68, 99, 0.1) 4.97%, rgba(0, 214, 214, 0.042) 104.68%);
     box-shadow: inset 61.6667px -61.6667px 61.6667px rgba(175, 185, 183, 0.1), inset -61.6667px 61.6667px 61.6667px rgba(255, 255, 255, 0.1);
@@ -21,25 +49,52 @@
     border-radius: 50px;
     padding: 20px;
     border: .1px solid rgb(250, 248, 248);
-    /* border-image-source: linear-gradient(113.08deg, #FFFFFF 8.05%, rgba(255, 255, 255, 0) 97.82%); */
-
-  
 }
-.projects-text{
- text-align: left;
- margin-right: 30px;
-}
-.projects-text h1{
-    margin: 50px 0px;
+.dark-project-text h1{
+    text-align: left;
+    font-weight: bold;
     font-size: 40px;
     line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffffd0;
 }
-.projects-text p{
+.dark-project-text p{
+    text-align: left;
+    font-weight: normal;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.5px;
+    color: #ffffffd0;
+}
+.dark-project-text .project-icon{
+    text-align: left;
+    color: #ffffffd0;
+}
+.light-project-text h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #002A57;
+}
+.light-project-text p{
+    text-align: left;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #1C2024;
+}
+.light-project-text .project-icon{
+    text-align: left;
+    color: black;
 }
 
+
+   /* project sidebar designer  */
 
 .ractangle-design{
     position: relative;
