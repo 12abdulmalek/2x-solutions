@@ -5,11 +5,13 @@ import pic1 from '../../images/blockchain1.svg'
 import pic2 from '../../images/blockchain.svg'
 import pic3 from '../../images/blockchain2.svg'
 import pic4 from '../../images/blockchain3.png'
+import useAuth from '../../../hooks/useAuth';
 const Services = () => {
+   const {theme} = useAuth();
     return (
         // service 
-        <div className='service-section'>
-            <div><h1 className='service-title'>OUR SERVICES</h1></div>
+        <div className={theme==='dark'?'dark-service-section':'light-service-section'}>
+            <div><h1 className={theme==='dark'?'dark-service-title':'light-service-title'}>OUR SERVICES</h1></div>
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-8 col-sm-12'>
@@ -58,10 +60,10 @@ const Services = () => {
                     <div className='col-md-4 col-sm-12'>
                         <div className='service-provider'>
                             <div>
-                            <div className='service-provider-header'>
+                            <div  className={theme==='dark'?'dark-service-provider-header':'light-service-provider-header'}>
                                 <h1>We provide Awsome service to our clients</h1>
                             </div>
-                            <div className='service-provider-text'>
+                            <div className={theme==='dark'?'dark-service-provider-text':'light-service-provider-text'}>
                               <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox</p>
                             </div>
                             <div className='service-provider-btn'>

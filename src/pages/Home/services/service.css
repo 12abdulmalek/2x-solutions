@@ -1,13 +1,24 @@
-.service-section{
+.dark-service-section{
     padding-top: 70px;
     margin-top:50px ;
     padding-bottom: 44px;
-    background-color: black;
+    background: #151719;
 }
-.service-title{
+.light-service-section{
+    padding-top: 70px;
+    margin-top:50px ;
+    padding-bottom: 44px;
+    background-color:  #E6F4F1;;
+}
+.dark-service-title{
  
     margin-bottom: 110px;
     color: #ffffff;
+}
+.light-service-title{
+ 
+    margin-bottom: 110px;
+    color: #002A57;
 }
 .services-card{
     display: flex;
@@ -59,13 +70,33 @@
     margin-top: 70px;
     text-align: left;
 }
-.service-provider-header h1{
+.dark-service-provider-header h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+     color: #ffffff;
+}
+.dark-service-provider-text p{
+    font-size: 15px;
+    text-transform: uppercase;
+     color: #ffffff;
+}
+.light-service-provider-header h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+     color: #002A57;
+}
+
+/* .service-provider-header h1{
     font-weight: bold;
     font-size: 40px;
     line-height: 55px;
     text-transform: uppercase;
     color: #E6F4F1;
-}
+} */
 
 .service-provider-text{
     font-size: 15px;

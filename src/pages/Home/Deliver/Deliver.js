@@ -2,17 +2,18 @@ import React from 'react';
 import web from '../../images/web.svg'
 import './Deliver.css'
 import rocket from '../../images/rocket.gif'
-const Deliver = ({dark,setDark}) => {
-
+import useAuth from '../../../hooks/useAuth';
+const Deliver = () => {
+     const {theme} = useAuth();
     return (
         // 2x faster deliver section 
-        <div className={dark?'dark-deliver-section':'light-deliver-section'}>
+        <div className={theme==='dark'?'dark-deliver-section':'light-deliver-section'}>
             <div className='container'>
             <div className=''>
             <div className='row g-2 '>
             <div className='col-lg-6 col-md-6 col-sm-12 text-start mt-2'>
 
-               <div className={dark?'faster mt-4' : 'mt-4'}>
+               <div className={theme==='dark'?'faster mt-4' : 'mt-4'}>
               <div className='faster-deliver'>
               <h1>
                 We deliver your work </h1> <br/><h1> <span className='faster-color'>2X FASTER</span> then others

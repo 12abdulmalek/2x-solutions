@@ -1,227 +1,184 @@
-import React from 'react';
-import { Button, Card, Carousel } from 'react-bootstrap';
+// import React, { Component } from "react";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css"; 
+// import "slick-carousel/slick/slick-theme.css";
+
+// import { Button, Card, Carousel } from 'react-bootstrap';
+import React from "react";
+import { Card } from "react-bootstrap";
+import ReactDOM from "react-dom";
+import Flickity from "react-flickity-component";
+import useAuth from "../../../hooks/useAuth";
+
+// import "./styles.css";
+// import "./flickity.css";
 
 import pic2 from '../../images/web.svg'
 
-import  { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-// import "./styles.css";
-
-// import required modules
-import { Pagination } from "swiper";
 import './Team.css';
 const Team = () => {
-    return (
-        <div className='my-5 py-5 team'>
-          <div>
-            <h1 className='mb-5 text-light' style={{fontSize:"40px"}}>Our team</h1>
+  const {theme} = useAuth();
+  const flickityOptions = {
+    initialIndex: 3,
+    wrapAround: true
+  }
+  return(
+  <div className="container">
+    <div className={theme==='dark'?'text-light':'text-dark my-5 py-2'}><h1>OUR TEAM</h1> </div>
+      <Flickity options={flickityOptions}>
+     <div id="carousel-cell-1" className="carousel-cell gap-5">
+     <Card  className='team-card'>
+               <div className='d-flex justify-content-center align-items-center mt-4'>
+               <img  className='team-img' src={pic2} /> 
+              </div>    
+             <Card.Body>
+              <Card.Text className={theme==='dark'?'':'light-card'}>
+                <h6>Mrs.Bean</h6>
+                <h6>Frontend developer</h6>
+               <div className='dark-team-star'>
+                 <i className="fas fa-star"></i>
+                 <i className="fas fa-star"></i>
+                 <i className="fas fa-star"></i>
+               </div>
+                </Card.Text>
+                 <button className="faster-button">About</button>
+             </Card.Body>
+                <div  className={theme==='dark'?'team-social dark-social-icon d-flex flex-column':'team-social light-team-social d-flex flex-column'}>
+                  <i className="fab fa-twitter"></i>
+                  <i className="fab fa-facebook-f"></i>
+                  <i className="fab fa-instagram"></i>
+                </div>
+                
+           </Card>
           </div>
-      <Swiper
-        slidesPerView={1}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-          },
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide className='swiper-slider'>
-        <Card  className='team-card'>
+     <div id="carousel-cell-1" className="carousel-cell gap-5">
+     <Card  className='team-card'>
                <div className='d-flex justify-content-center align-items-center mt-4'>
                <img  className='team-img' src={pic2} /> 
               </div>    
              <Card.Body>
-              <Card.Text>
+              <Card.Text className={theme==='dark'?'':'light-card'}>
                 <h6>Mrs.Bean</h6>
                 <h6>Frontend developer</h6>
-               <div className='team-star'>
+               <div className='dark-team-star'>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                </div>
                 </Card.Text>
-                 <Button variant="primary">About</Button>
+                 <button className="faster-button">About</button>
              </Card.Body>
-                <div className='team-social d-flex flex-column' data-aos="fade-left">
+                <div  className={theme==='dark'?'team-social dark-social-icon d-flex flex-column':'team-social light-team-social d-flex flex-column'}>
                   <i className="fab fa-twitter"></i>
                   <i className="fab fa-facebook-f"></i>
                   <i className="fab fa-instagram"></i>
                 </div>
+                
            </Card>
-        </SwiperSlide>
-      
-        <SwiperSlide className='swiper-slider'>
-        <Card  className='team-card'>
+          </div>
+     <div id="carousel-cell-1" className="carousel-cell gap-5">
+     <Card  className='team-card'>
                <div className='d-flex justify-content-center align-items-center mt-4'>
                <img  className='team-img' src={pic2} /> 
               </div>    
              <Card.Body>
-              <Card.Text>
+              <Card.Text className={theme==='dark'?'':'light-card'}>
                 <h6>Mrs.Bean</h6>
                 <h6>Frontend developer</h6>
-               <div className='team-star'>
+               <div className='dark-team-star'>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                </div>
                 </Card.Text>
-                 <Button variant="primary">About</Button>
+                 <button className="faster-button">About</button>
              </Card.Body>
-                <div className='team-social d-flex flex-column' data-aos="fade-left">
+                <div  className={theme==='dark'?'team-social dark-social-icon d-flex flex-column':'team-social light-team-social d-flex flex-column'}>
                   <i className="fab fa-twitter"></i>
                   <i className="fab fa-facebook-f"></i>
                   <i className="fab fa-instagram"></i>
                 </div>
+                
            </Card>
-        </SwiperSlide>
-      
-        <SwiperSlide className='swiper-slider'>
-        <Card  className='team-card'>
+          </div>
+     <div id="carousel-cell-1" className="carousel-cell gap-5">
+     <Card  className='team-card'>
                <div className='d-flex justify-content-center align-items-center mt-4'>
                <img  className='team-img' src={pic2} /> 
               </div>    
              <Card.Body>
-              <Card.Text>
+              <Card.Text className={theme==='dark'?'':'light-card'}>
                 <h6>Mrs.Bean</h6>
                 <h6>Frontend developer</h6>
-               <div className='team-star'>
+               <div className='dark-team-star'>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                </div>
                 </Card.Text>
-                 <Button variant="primary">About</Button>
+                 <button className="faster-button">About</button>
              </Card.Body>
-                <div className='team-social d-flex flex-column' data-aos="fade-left">
+                <div  className={theme==='dark'?'team-social dark-social-icon d-flex flex-column':'team-social light-team-social d-flex flex-column'}>
                   <i className="fab fa-twitter"></i>
                   <i className="fab fa-facebook-f"></i>
                   <i className="fab fa-instagram"></i>
                 </div>
+                
            </Card>
-        </SwiperSlide>
-      
-        <SwiperSlide className='swiper-slider'>
-        <Card  className='team-card'>
+          </div>
+     <div id="carousel-cell-1" className="carousel-cell gap-5">
+     <Card  className='team-card'>
                <div className='d-flex justify-content-center align-items-center mt-4'>
                <img  className='team-img' src={pic2} /> 
               </div>    
              <Card.Body>
-              <Card.Text>
+              <Card.Text className={theme==='dark'?'':'light-card'}>
                 <h6>Mrs.Bean</h6>
                 <h6>Frontend developer</h6>
-               <div className='team-star'>
+               <div className='dark-team-star'>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                </div>
                 </Card.Text>
-                 <Button variant="primary">About</Button>
+                 <button className="faster-button">About</button>
              </Card.Body>
-                <div className='team-social d-flex flex-column' data-aos="fade-left">
+                <div  className={theme==='dark'?'team-social dark-social-icon d-flex flex-column':'team-social light-team-social d-flex flex-column'}>
                   <i className="fab fa-twitter"></i>
                   <i className="fab fa-facebook-f"></i>
                   <i className="fab fa-instagram"></i>
                 </div>
+                
            </Card>
-        </SwiperSlide>
-      
-        <SwiperSlide className='swiper-slider'>
-        <Card  className='team-card'>
+          </div>
+     <div id="carousel-cell-1" className="carousel-cell gap-5">
+     <Card  className='team-card'>
                <div className='d-flex justify-content-center align-items-center mt-4'>
                <img  className='team-img' src={pic2} /> 
               </div>    
              <Card.Body>
-              <Card.Text>
+              <Card.Text className={theme==='dark'?'':'light-card'}>
                 <h6>Mrs.Bean</h6>
                 <h6>Frontend developer</h6>
-               <div className='team-star'>
+               <div className='dark-team-star'>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                  <i className="fas fa-star"></i>
                </div>
                 </Card.Text>
-                 <Button variant="primary">About</Button>
+                 <button className="faster-button">About</button>
              </Card.Body>
-                <div className='team-social d-flex flex-column' data-aos="fade-left">
+                <div  className={theme==='dark'?'team-social dark-social-icon d-flex flex-column':'team-social light-team-social d-flex flex-column'}>
                   <i className="fab fa-twitter"></i>
                   <i className="fab fa-facebook-f"></i>
                   <i className="fab fa-instagram"></i>
                 </div>
+                
            </Card>
-        </SwiperSlide>
-      
-        <SwiperSlide className='swiper-slider'>
-        <Card  className='team-card'>
-               <div className='d-flex justify-content-center align-items-center mt-4'>
-               <img  className='team-img' src={pic2} /> 
-              </div>    
-             <Card.Body>
-              <Card.Text>
-                <h6>Mrs.Bean</h6>
-                <h6>Frontend developer</h6>
-               <div className='team-star'>
-                 <i className="fas fa-star"></i>
-                 <i className="fas fa-star"></i>
-                 <i className="fas fa-star"></i>
-               </div>
-                </Card.Text>
-                 <Button variant="primary">About</Button>
-             </Card.Body>
-                <div className='team-social d-flex flex-column' data-aos="fade-left">
-                  <i className="fab fa-twitter"></i>
-                  <i className="fab fa-facebook-f"></i>
-                  <i className="fab fa-instagram"></i>
-                </div>
-           </Card>
-        </SwiperSlide>
-      
-        <SwiperSlide className='swiper-slider'>
-        <Card  className='team-card'>
-               <div className='d-flex justify-content-center align-items-center mt-4'>
-               <img  className='team-img' src={pic2} /> 
-              </div>    
-             <Card.Body>
-              <Card.Text>
-                <h6>Mrs.Bean</h6>
-                <h6>Frontend developer</h6>
-               <div className='team-star'>
-                 <i className="fas fa-star"></i>
-                 <i className="fas fa-star"></i>
-                 <i className="fas fa-star"></i>
-               </div>
-                </Card.Text>
-                 <Button variant="primary">About</Button>
-             </Card.Body>
-                <div className='team-social d-flex flex-column' data-aos="fade-left">
-                  <i className="fab fa-twitter"></i>
-                  <i className="fab fa-facebook-f"></i>
-                  <i className="fab fa-instagram"></i>
-                </div>
-           </Card>
-        </SwiperSlide>
-      
-      </Swiper>
-        </div>
+          </div>
+    </Flickity>
+  </div>
+
     );
 };
 

@@ -1,0 +1,110 @@
+.navigation-bar{
+ 
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.light-menubar{
+  background: rgba(237, 251, 255, 0.15);
+  padding-top: 22px;
+  padding-bottom: 22px;
+  box-shadow: inset 51.6667px -51.6667px 51.6667px rgba(180, 191, 194, 0.1), inset -51.6667px 51.6667px 51.6667px rgba(255, 255, 255, 0.1);
+}
+ /* solution text design code here  */
+.solution{
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 3px;
+  padding-top: 3px;
+}
+
+.light-solution{
+  color: #1C2024;
+}
+
+  /* menu item design code start here  */
+
+  .menu-item{
+    display: flex;
+    text-transform: uppercase;
+  }
+
+  .light-menu-item{
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1C2024;;
+    padding: 12px 24px;
+}
+.light-menu-item:hover{
+  color:#E89B26;
+  border-radius: 5px;
+}
+.light-menu-item:after{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0px;
+  color: rgb(224, 136, 21);
+  background-color: #E89B26;;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.light-menu-item:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: #E89B26 !important;
+}
+
+.light-navbar{
+  background-color: rgba(173, 216, 229, 0.322);
+   box-shadow: 0px 0px 25px 25px rgba(173, 216, 229, 0.322);
+}
+
+.light-moon{
+    color: black;
+    padding-right: 42px;
+    margin:15px;
+}
+
+/* contact button code here  */
+.contact-menu-item{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    width: 130px;
+    background: linear-gradient(98.87deg, #FF8C00 16.95%, #FFDC12 157.07%);
+    border-radius: 5px;
+    padding: 12px 24px;
+    color: #0578c2;
+    margin: auto;
+}
+
+/* menubar responsive behaviour */
+
+@media (max-width:991.5px) {
+  .light-menubar{
+    background-color: transparent;
+  }
+ 
+  .menu-item{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-menubar-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-center;
+    justify-content: center;
+    margin-top: 12px;
+  }
+}

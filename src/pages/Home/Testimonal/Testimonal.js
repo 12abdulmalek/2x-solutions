@@ -1,18 +1,20 @@
 import React from 'react';
 import './Testimonals.css'
 import pic from '../../images/testimonial.jpg'
-const Testimonal = ({dark}) => {
+import useAuth from '../../../hooks/useAuth';
+const Testimonal = () => {
+   const {theme} = useAuth();
     return (
         <div className=''>
             <div className=' container testimonials p-5'>
                 <div className='d-flex justify-content-center align-items-center testi-cont' >
                 <span className='test-strick mx-4'></span>
-                <h1 className={dark?'dark-testimonial-header':'light-testimonial-header'}>TESTIMONALS</h1>
+                <h1 className={theme==='dark'?'dark-testimonial-header':'light-testimonial-header'}>TESTIMONALS</h1>
                 <span className='test-strick mx-4'></span>
                 </div>
                 <div className='row gx-5'>
                     <div className='col-lg-6 col-md-6 col-sm-12 text-start client-cont mt-5'>
-                      <div className={dark?'ms-5 dark-testimonial-body':'ms-5 light-testimonial-body'}>
+                      <div className={theme==='dark'?'ms-5 dark-testimonial-body':'ms-5 light-testimonial-body'}>
                       <h1>What People say
                          </h1>
                          <i className="fas fa-quote-left light-quote"></i>
