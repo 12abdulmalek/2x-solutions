@@ -1,76 +1,81 @@
 import React from 'react';
 import { Button, Card, Col, Row } from 'react-bootstrap';
 import './service.css'
-import pic2 from '../../images/web.svg'
+import pic1 from '../../images/blockchain1.svg'
+import pic2 from '../../images/blockchain.svg'
+import pic3 from '../../images/blockchain2.svg'
+import pic4 from '../../images/blockchain3.png'
+import useAuth from '../../../hooks/useAuth';
 const Services = () => {
+   const {theme} = useAuth();
     return (
-        // service and technologies
-        <div className='mt-5 mb-5'>
-           <div className='container'>
-               <div className='service-offer'>
-                   <h1>WHAT WE OFFER</h1>
-                   <div className='d-flex justify-content-around service-btn'>            
-                           <a>Services</a>
-                           <a>Technologies</a>
-                   </div>
-               </div>
-             <Row xs={1} md={2} className="g-3">
-               <Col>
-                <Card  className='service-card'>
-                 <div>
-                  <Card.Img variant="top" className='service-img' src={pic2} />
+        // service 
+        <div className={theme==='dark'?'dark-service-section':'light-service-section'}>
+            <div><h1 className={theme==='dark'?'dark-service-title':'light-service-title'}>OUR SERVICES</h1></div>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-md-8 col-sm-12'>
+                       <div className='services-card'>
+                            <div className='service-card service-card-one'>
+                                <div className='service-img'>
+                                    <img src={pic3}/>
+                                </div>
+                                <div className='service-text'>
+                                    <h2 id='service-text-one'>Blockchain Development</h2>
+                                </div>
+                            </div>
+                       <div className='service-card'>
+                            <div>
+                                <div className='service-img'>
+                                    <img src={pic2}/>
+                                </div>
+                                <div className='service-text'>
+                                    <h2>Blockchain Development</h2>
+                                </div>
+                            </div>
+                        </div>
+                       </div>         
+                       <div className='services-card'>
+                            <div className='service-card service-card-two'>
+                                <div className='service-img'>
+                                    <img src={pic1}/>
+                                </div>
+                                <div className='service-text'>
+                                    <h2>Blockchain Development</h2>
+                                </div>
+                            </div>
+                       <div className='service-card'>
+                            <div>
+                                <div className='service-img'>
+                                    <img src={pic4}/>
+                                </div>
+                                <div className='service-text'>
+                                    <h2>Blockchain Development</h2>
+                                </div>
+                            </div>
+                        </div>
+                       </div>         
+                     </div>
+
+                    <div className='col-md-4 col-sm-12'>
+                        <div className='service-provider'>
+                            <div>
+                            <div  className={theme==='dark'?'dark-service-provider-header':'light-service-provider-header'}>
+                                <h1>We provide Awsome service to our clients</h1>
+                            </div>
+                            <div className={theme==='dark'?'dark-service-provider-text':'light-service-provider-text'}>
+                              <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox</p>
+                            </div>
+                            <div className='service-provider-btn'>
+                                  <button>Contact us</button>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                     <Card.Body>
-                            <Card.Title>Enterprize Software development </Card.Title>
-                        <Card.Text>
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself </p>
-                        </Card.Text>
-                       </Card.Body>
-                      </Card>
-                  </Col>
-               <Col>
-                <Card  className='service-card'>
-                 <div>
-                  <Card.Img variant="top" className='service-img' src={pic2} />
-                    </div>
-                     <Card.Body>
-                            <Card.Title>Enterprize Software development </Card.Title>
-                        <Card.Text>
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself </p>
-                        </Card.Text>
-                       </Card.Body>
-                      </Card>
-                  </Col>
-               <Col>
-                <Card  className='service-card'>
-                 <div>
-                  <Card.Img variant="top" className='service-img' src={pic2} />
-                    </div>
-                     <Card.Body>
-                            <Card.Title>Enterprize Software development </Card.Title>
-                        <Card.Text>
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself </p>
-                        </Card.Text>
-                       </Card.Body>
-                      </Card>
-                  </Col>
-               <Col>
-                <Card  className='service-card'>
-                 <div>
-                  <Card.Img variant="top" className='service-img' src={pic2} />
-                    </div>
-                     <Card.Body>
-                            <Card.Title>Enterprize Software development </Card.Title>
-                        <Card.Text>
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in .One morning, when Gregor Samsa woke from troubled dreams, he found himself </p>
-                        </Card.Text>
-                       </Card.Body>
-                      </Card>
-                  </Col>
-                </Row>
-                <button className='mt-4 px-3 py-2 faster-button'> Tell us about your project</button>
-           </div>
-        </div>
+                </div>
+            </div>
+       
     );
 };
 

@@ -7,23 +7,25 @@ import pic4 from '../../images/code (1).png'
 import pic5 from '../../images/trust.png'
 import pic6 from '../../images/MOBILE.png'
 import './Work.css'
-const Work = () => {
+const Work = ({dark}) => {
     return (
-        <div>
-            <div className='container pt-5'>
+        // what we do service section code 
+        <div  className={dark?'dark-work-section':'light-work-section'}>
+            <div className='container'>
                 <div className='row'>
                     <div className='col-md-6 col-sm-12'>
-                       <div className='service-pic'>
+                       <div className='service-pic me-5'>
                        <img className='img-fluid' src={pic}/>
                        </div>
                     </div>
-                    <div className='col-md-6 col-sm-12'>
+                    <div className='col-md-6 col-sm-12 '>
                     
-                      <div>
+                     <div className='mx-3 px-2 mt-3'>
+                     <div className={dark?'dark-work-text work-text':'light-work-text work-text'}>
                             <h1>What we do</h1>
                             <p>It should represent more in pictures and icons and less in words.</p>
                         </div>
-                        <div className='work-service'>
+                        <div className={dark?'dark-work-service':'light-work-serivce'}>
                         <div className='d-flex align-items-center'> 
                             <img width="60px" height="60px" className='my-1' src={pic1}/>
                             <h5 className='mx-3'>High Quality code</h5>
@@ -49,6 +51,9 @@ const Work = () => {
                             <h5 className='mx-3'>24 Hrs Customer support.</h5>
                         </div>
                       </div>
+                     </div>
+
+
                     </div>                      
                 </div>
             </div>

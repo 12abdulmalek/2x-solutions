@@ -1,7 +1,23 @@
 .testimonials{
-    background: rgba(0, 0, 0, 0.281);
-    backdrop-filter: blur(21.0773px);
-    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.033);
+    box-shadow: inset 81.0667px -81.0667px 81.0667px rgba(194, 194, 194, 0.033), inset -81.0667px 81.0667px 81.0667px rgba(255, 255, 255, 0.033);
+   backdrop-filter: blur(21.0773px);
+   border-radius: 20px;
+   border: .5px solid white;
+}
+.dark-testimonial-header{
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00B2D3;
+}
+.light-testimonial-header{
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #002A57;
 }
 .test-strick{
     width: 85px;
@@ -9,10 +25,53 @@
     background-color:  #E89B26;
     border: 2px solid #E89B26;
 }
-.testi-cont h1{
- color: #00B2D3;
- font-size: 40px;
+/* dark light testimonial body content  */
+.dark-testimonial-body h1{
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: -6px;
+    line-height: 49px;
+    letter-spacing: 0.25px;
+    color: #7DF9C2;
 }
+.dark-testimonial-body p{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px; 
+    color: #FFFFFF;
+}
+.dark-testimonial-body h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.light-testimonial-body h1{
+    color: #00D8D1;
+    margin-bottom: -6px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.25px;
+}
+.light-testimonial-body p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #1C2024;
+}
+.light-testimonial-body h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #40b4b894;
+}
+
+
+
+
 
 .client-cont {
     color:  #FFFFFF;
@@ -27,16 +86,11 @@
     letter-spacing: 0.5px;
 }
 
-.round{
-    margin-left:-44px;
-    margin-top: -90px;
-    width: 200px;
-   height: 200px;
-    border-radius: 50%;
-    background: radial-gradient(95.12% 95.12% at 100% 68.54%, #002A57 0%, #068AC1 36.48%, #00B2D3 75.31%);  
+
+
+.testimonial-body p{
+        opacity: .7;
 }
-
-
 .light-quote{
     margin-left: -18px;
     color:#E89B26;
@@ -61,4 +115,18 @@
 .testi-img{
     border-radius: 25px;
     width: 100%;
+  height: 500px;
+}
+.testi-image{
+    border-radius: 25px;
+    height: 400px;
+}
+  /* side bar circle code here  */
+.round{
+    margin-left:-44px;
+    margin-top: -90px;
+    width: 200px;
+   height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(95.12% 95.12% at 100% 68.54%, #002A57 0%, #068AC1 36.48%, #00B2D3 75.31%);  
 }

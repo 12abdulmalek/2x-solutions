@@ -1,0 +1,54 @@
+
+.dark-menubar{
+    background: #151719;
+    padding-top: 22px;
+    padding-bottom: 22px;  
+}
+/* solution dark icon code  */
+.dark-solution{
+    color: #0578c2;
+  }
+
+  .dark-menu-item{
+      display: inline-block;
+      position: relative;
+      font-size: 18px;
+      text-decoration: none;
+      color: #ffffff9a;
+      padding: 12px 24px;
+  }
+  .dark-menu-item:hover{
+    color:#E89B26;
+    border-radius: 5px;
+  }
+  .dark-menu-item:after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0px;
+    color: rgb(224, 136, 21);
+    background-color: #E89B26;;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .dark-menu-item:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: #E89B26;
+  }
+  .night-moon{
+    color: rgb(255, 251, 251);
+    padding-right: 42px;
+    margin:15px;
+}
+
+  .dark-icon>button{
+    background-color: transparent;
+    border: none;
+    opacity: 1;
+}
+
